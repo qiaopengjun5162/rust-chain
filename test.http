@@ -1,0 +1,18 @@
+### hello world
+
+GET http://127.0.0.1:8080/
+Accept: application/json
+Content-Type: application/json
+
+### rust chain number
+
+GET http://127.0.0.1:8080/api/number
+Accept: application/json
+Content-Type: application/json
+
+
+### handle_block_number
+
+GET http://127.0.0.1:8080/api/block_number
+Accept: application/json
+Content-Type: application/json

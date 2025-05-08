@@ -1,0 +1,16 @@
+[package]
+name = "rust-chain"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+anyhow = "1.0.98"
+dotenv = "0.15.0"
+ethers = { version = "2.0.14", default-features = false, features = ["rustls"] }
+tokio = { version = "1.45.0", features = ["full"] }
+tracing = "0.1.41"
+tracing-subscriber = "0.3.19"
+axum = { version = "0.8.4", features = ["json"] }
+thiserror = "2.0.12"
+eyre = "0.6.12"
+axum-macros = "0.5.0"
